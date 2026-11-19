@@ -21,18 +21,15 @@ Testing only on physical hardware can make it difficult to repeatedly analyse in
 Therefore, this project proposes a Digital Twin Assisted Validation Framework in which a MATLAB-based digital representation models the Arduino control logic and compares its expected outputs with actual hardware telemetry.
 
 This approach helps identify mismatches in control decisions, motor commands, obstacle response, and stopping behaviour.
-
 ## 3. Objectives
 
-- To develop an Arduino Mega 2560-based autonomous vehicle prototype.
-- To implement lane-following functionality using two IR sensors.
-- To detect obstacles using an HC-SR04 ultrasonic sensor.
-- To implement automatic stopping and restarting based on obstacle distance.
-- To provide buzzer-based obstacle warnings.
-- To transmit real-time hardware telemetry through Bluetooth.
-- To develop a MATLAB-based Digital Twin that replicates the Arduino control logic.
-- To compare hardware behaviour with Digital Twin predictions.
-- To analyse mismatches and generate validation results and plots.
+- To design and develop an Arduino Mega 2560-based autonomous vehicle prototype with lane-following and obstacle-detection capabilities.
+- To implement intelligent vehicle control using IR sensors, ultrasonic sensing, motor control, and buzzer-based warning mechanisms.
+- To develop automatic obstacle avoidance behaviour through emergency stopping and safe restarting based on predefined distance thresholds.
+- To establish Bluetooth-based communication for transmitting real-time vehicle telemetry from the physical hardware to MATLAB.
+- To develop a MATLAB-based Digital Twin that replicates the Arduino control logic and represents the vehicle's behaviour under different driving scenarios.
+- To validate the Digital Twin against actual hardware data by comparing control decisions, motor commands, and system states, and analysing the results through performance metrics and plots.
+
 
 ## 4. System Architecture
 
