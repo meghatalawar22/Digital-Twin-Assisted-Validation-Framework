@@ -293,8 +293,13 @@ The expected outcome is a working Arduino-based autonomous vehicle prototype wit
 The framework will record real hardware behaviour, reproduce the corresponding control decisions in MATLAB, compare both outputs, identify mismatches, and provide quantitative validation results.
 
 This demonstrates how a Digital Twin can support the testing and validation of autonomous vehicle control systems.
+##  Team Members
 
-## 16. Project Status
+- Team Member 1: Pragati Abbigeri
+- Team Member 2: Megha Talawar
+- Team Member 3: Bibi khuteja Soudagar
+
+
 
 
 
