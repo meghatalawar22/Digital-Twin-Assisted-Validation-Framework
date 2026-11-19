@@ -268,7 +268,6 @@ Digital-Twin-Autonomous-Vehicle/
     └── project_details.md
 ```
 
-*Note: The filenames and folder structure above are suggested. Adjust them to match the actual files uploaded to GitHub.*
 
 ## 14. Current Project Progress
 
