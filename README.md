@@ -293,6 +293,24 @@ The expected outcome is a working Arduino-based autonomous vehicle prototype wit
 The framework will record real hardware behaviour, reproduce the corresponding control decisions in MATLAB, compare both outputs, identify mismatches, and provide quantitative validation results.
 
 This demonstrates how a Digital Twin can support the testing and validation of autonomous vehicle control systems.
+## 16. Experimental Results
+
+The MATLAB-based Digital Twin was compared against actual Arduino hardware telemetry under four test scenarios.
+
+| Scenario | Records Compared | Mode Match | Overall Match |
+|---|---:|---:|---:|
+| Scenario 1: Normal Lane Following | 4,647 | 100% | 100% |
+| Scenario 2: Obstacle Removed | 4,858 | 100% | 100% |
+| Scenario 3: Obstacle Remains | 5,164 | 100% | 100% |
+| Scenario 4: IR Sensor Test | 4,574 | 100% | 100% |
+
+All five validation checks reported 100% matching in the displayed test runs.
+
+The MATLAB plots illustrate the comparison of hardware and Digital Twin controller decisions, ultrasonic distance measurements, buzzer activity, and stop-latch behaviour.
+
+### Validation Evidence
+
+The corresponding MATLAB screenshots are available in the `Results/Validation_Screenshots/` directory.
 ##  Team Members
 
 - Team Member 1: Pragati Abbigeri
